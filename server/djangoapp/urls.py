@@ -10,7 +10,7 @@ urlpatterns = [
     # name the URL
 
     # path for about view
-    path('djangoapp/about', views.about, name='about'),
+    path('about', views.about, name='about'),
 
     # path for contact us view
 
